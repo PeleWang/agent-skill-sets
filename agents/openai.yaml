@@ -1,7 +1,7 @@
 interface:
-  display_name: "ASD 中文文字讲解"
-  short_description: "按 ASD-STE100 写作原则解释内容，在聊天窗口交付中文文字"
-  default_prompt: "用 $asd-text-explainer 解释这个主题：先按 ASD-STE100 写作原则组织英文讲解，再忠实翻译成中文，保留英文标题、专有名称和原创术语，直接在聊天窗口输出文字。"
+  display_name: "STE100-text-explainer"
+  short_description: "超过三句话才能解释清楚的内容，采用 STE100 风格在窗口输出"
+  default_prompt: "用 $STE100-text-explainer 解释这个主题：先按 ASD-STE100 写作原则组织英文讲解，再忠实翻译成中文，保留英文标题、专有名称和原创术语，直接在聊天窗口输出文字。"
 
 policy:
   allow_implicit_invocation: true
