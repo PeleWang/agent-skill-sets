@@ -1,7 +1,7 @@
 interface:
-  display_name: "ASD 中文交互讲解"
-  short_description: "将 ASD-STE100 英文讲解转为中文交互网页，保留英文原创术语"
-  default_prompt: "用 $asd-web-explainer 解释这个主题：先生成 ASD-STE100 英文讲解和美观的交互网页，再忠实翻译成中文，保留英文标题、专有名称和原创术语。"
+  display_name: "ASD 中文交互式讲解"
+  short_description: "把按 ASD-STE100 写成的英文讲解做成中文交互网页，保留原有的英文术语"
+  default_prompt: "用 $asd-web-explainer 讲解这个主题：先按 ASD-STE100 的写作原则写英文讲解并制作美观的交互网页，再忠实译成中文，保留英文标题、专有名称和作者提出的术语。"
 
 policy:
   allow_implicit_invocation: true
