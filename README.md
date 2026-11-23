@@ -9,6 +9,7 @@
 | 用途 | Skill | 什么时候用 |
 | --- | --- | --- |
 | 制作 | [`asd-web-explainer`](.agents/skills/asd-web-explainer/SKILL.md) | 学习或理解材料时，需要 ASD-STE100 英文底稿和中文交互式讲解。 |
+| 制作 | [`ste100-text-explainer`](.agents/skills/ste100-text-explainer/SKILL.md) | 想在聊天里直接读中文讲解，不需要另做网页或文件。 |
 | 制作 | [`nps-dashboard`](.agents/skills/nps-dashboard/SKILL.md) | 用 0–10 分的推荐意愿评分制作便于核对的 NPS 仪表板。 |
 | 制作 | [`deck-production`](.agents/skills/deck-production/SKILL.md) | 根据听众、用途、依据和模板制作或更新 PPT。 |
 | 制作 | [`taste-guided-writing`](.agents/skills/taste-guided-writing/SKILL.md) | 手头有满意的范文，需要写作或改稿，而不是归纳写作规则。 |
